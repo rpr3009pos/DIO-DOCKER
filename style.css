@@ -1,0 +1,100 @@
+body {
+    color: #0f052b;
+    text-align: center;
+    margin: 0;
+    padding: 15;
+}
+
+header {
+    background-color: rgb(219, 217, 68);
+    padding: 0px 0;
+}
+
+header h1 {
+    margin: 0;
+    background-color: rgba(56, 192, 90, 0.548);
+    font-size: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2A5E8F;
+    margin: 0 15px;
+}
+
+.cliente {
+    max-width: 500px;
+    margin: 10 auto;
+    padding: 10px;
+    background: rgba(236, 228, 228, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cliente input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 5px solid #0c0101;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.cliente input:focus {
+    border-color: #2A5E8F;
+    box-shadow: 0 0 5px #2A5E8F;
+    align-items: center;
+}
+
+.cliente button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2A5E8F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.cliente button:hover {
+    background-color: #1a4b72;
+    align-items: center;
+}
+
+#mensagem {
+    color: red;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(24, 1, 1, 0.842);
+    align-items: center;
+}
+
+table th,
+table td {
+    border: 5px solid #cab6b1;
+    padding: 5px;
+    text-align: center;
+}
+
+table th {
+    background-color: #010913;
+    color: rgb(246, 252, 251);
+}
+
+tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
