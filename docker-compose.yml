@@ -1,0 +1,6 @@
+services:
+  web:
+    build:
+      context: . # Define que o Docker Compose usará o Dockerfile nesta pasta
+    ports:
+      - "8080:80" # Porta 80 do contêiner é mapeada para a porta 8080 no host
